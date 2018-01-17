@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<PropertyList>
+	<default>
+		<menu n="3">
+			<item>
+				<name>autopilot</name>
+				<label>Autopilot Settings</label>
+				<binding>
+					<command>dialog-show</command>
+					<dialog-name>autopilot-neu</dialog-name>
+				</binding>
+			</item>
+		</menu>
+		<menu n="100">
+			<label>SL11</label>
+			<item>
+				<label>About</label>
+				<binding>
+					<command>nasal</command>
+					<script>SL11.about();</script>
+				</binding>
+			</item>
+			<item>
+				<label>Weather Report</label>
+				<binding>
+					<command>dialog-show</command>
+					<dialog-name>weather-report</dialog-name>
+				</binding>
+			</item>
+		</menu>
+	</default>
+</PropertyList>

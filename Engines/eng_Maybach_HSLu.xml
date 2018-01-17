@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+
+Zeppelin LZ 121 "Nordstern" airship flight model for JSBSim.
+
+Copyright (C) 2010 - 2016  Anders Gidenstam  (anders(at)gidenstam.org)
+
+This program is free software; you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation; either version 2 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program; if not, write to the Free Software
+Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
+
+-->
+<piston_engine name="Maybach HSLu">
+	
+	<displacement unit="LTR"> 19.08  </displacement>
+	<bore unit="M">            0.150 </bore>
+	<stroke unit="M">          0.180 </stroke>
+	<compression-ratio>        5.50  </compression-ratio>
+	<cylinders>                6.00  </cylinders>
+	<cycles>                   4.00  </cycles>
+	
+	<minmp unit="INHG">         10.5 </minmp>
+	<maxmp unit="INHG">         28.5 </maxmp>
+	
+	<maxhp>                   240.00 </maxhp> <!-- Needs to be adjusted so that
+	full throttle at 1800 m
+	delivers 240 hp @ 1400 RPM(?).
+	-->
+	
+	<idlerpm>                  90.00 </idlerpm>
+	<maxrpm>                 1400.00 </maxrpm>
+	<starter-rpm>             400.00 </starter-rpm>
+	<bsfc unit="LBS/HP*HR">     0.61 </bsfc>
+	<!-- volumetric_efficiency>          <volumetric_efficiency -->
+	<sparkfaildrop>             0.10 </sparkfaildrop>
+	
+	<minthrottle> 0.1 </minthrottle>
+	<maxthrottle> 1.0 </maxthrottle>
+	
+</piston_engine>

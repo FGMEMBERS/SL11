@@ -1,0 +1,104 @@
+<?xml version="1.0"?>
+<PropertyList>
+	<name>weather-report</name>
+	<layout>vbox</layout>
+	<default-padding>3</default-padding>
+	<resizable>true</resizable>
+	<modal>false</modal>
+	<draggable>true</draggable>
+	<group>
+		<layout>hbox</layout>
+		<default-padding>1</default-padding>
+		<empty><stretch>1</stretch></empty>
+		<text>
+			<label>Weather Report</label>
+		</text>
+		<empty><stretch>1</stretch></empty>
+		<button>
+			<pref-width>16</pref-width>
+			<pref-height>16</pref-height>
+			<legend></legend>
+			<keynum>27</keynum>
+			<border>2</border>
+			<binding>
+				<command>dialog-close</command>
+			</binding>
+		</button>
+	</group>
+	<hrule/>
+	<group>
+		<layout>table</layout>
+		<text>
+			<row>0</row>
+			<col>0</col>
+			<label> </label>
+			<halign>left</halign>
+		</text>
+		<text>
+			<row>0</row>
+			<col>1</col>
+			<label>Wind from: </label>
+			<halign>left</halign>
+		</text>
+		<text>
+			<row>0</row>
+			<col>2</col>
+			<label> </label>
+			<halign>left</halign>
+		</text>
+		<text>
+			<row>0</row>
+			<col>3</col>
+			<label>MMMMMM</label>
+			<halign>left</halign>
+			<format>%6.3f</format>
+			<property>/environment/wind-from-heading-deg</property>
+			<live>true</live>
+		</text>
+		<text>
+			<row>1</row>
+			<col>1</col>
+			<label>Speed (kts): </label>
+			<halign>left</halign>
+		</text>
+		<text>
+			<row>1</row>
+			<col>3</col>
+			<label>MMMMMM</label>
+			<halign>left</halign>
+			<format>%6.3f</format>
+			<property>/environment/wind-speed-kt</property>
+			<live>true</live>
+		</text>
+		<text>
+			<row>2</row>
+			<col>1</col>
+			<label>Temperature: </label>
+			<halign>left</halign>
+		</text>
+		<text>
+			<row>2</row>
+			<col>3</col>
+			<label>MMMMMM</label>
+			<halign>left</halign>
+			<format>%6.1f</format>
+			<property>/environment/temperature-degc</property>
+			<live>true</live>
+		</text>
+	</group>
+	
+	<group>
+		<layout>hbox</layout>
+		<default-padding>6</default-padding>
+		<empty><stretch>true</stretch></empty>
+		<button>
+			<legend>Close</legend>
+			<equal>true</equal>
+			<key>Esc</key>
+			<default>true</default>
+			<binding>
+				<command>dialog-close</command>
+			</binding>
+		</button>
+	</group>
+</PropertyList>

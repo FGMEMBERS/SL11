@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PropertyList>
+	<pid-controller>
+		<name>Pitch hold</name>
+		<debug>false</debug>
+		<enable>
+			<prop>/autopilot/locks/altitude</prop>
+			<value>pitch-hold</value>
+		</enable>
+		<input>
+			<prop>/orientation/pitch-deg</prop>
+		</input>
+		<reference>
+			<prop>/autopilot/settings/target-pitch-deg</prop>
+		</reference>
+		<output>
+			<prop>/controls/flight/elevator</prop>
+		</output>
+		<config>
+			<Kp>-0.05</Kp>
+			<Ti>1.0</Ti>
+			<Td>0.0</Td>
+			<u_min>-1.0</u_min>
+			<u_max>1.0</u_max>
+		</config>
+	</pid-controller>
+</PropertyList>

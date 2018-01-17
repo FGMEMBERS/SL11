@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<propeller name="Zeppelin 5.5m 2-bladed wooden propeller">
+	
+	<documentation>
+		JavaProp: Designed for max power and RPM at 93 kph.
+		#blades 2
+		n          500 RPM
+		D          5.50 m
+		Spinner D  0.20 m
+		Velocity   25.8 m/s
+		Power      178967.97 W
+		
+		Airfoil
+		Clark Y, Re=500000
+		Clark Y, Re=500000
+		Clark Y, Re=500000
+		Flat plate, Re=500000
+		
+	</documentation>
+	
+	<documentation>
+		The intertia is assumed to be
+		n * 1/3*m_b*(d^2)/4
+		where
+		n is the number of blades,
+		m_b is the mass of a blade and
+		d is the diameter.
+		
+		2/3 of the total propeller weight is assumed to be in the blades.
+	</documentation>
+	
+	<ixx> 300.3 </ixx>
+	<diameter unit="M">5.5</diameter>
+	<numblades> 2.0 </numblades>
+	<gearratio> 2.79 </gearratio>
+	<maxrpm> 500.00 </maxrpm>
+	
+	<table name="C_THRUST" type="internal">
+		<tableData>
+			0.000	0.105970
+			0.050	0.108296
+			0.100	0.106523
+			0.150	0.105633
+			0.200	0.104445
+			0.250	0.102414
+			0.300	0.099731
+			0.350	0.096310
+			0.400	0.092002
+			0.450	0.086320
+			0.500	0.077952
+			0.550	0.068501
+			0.600	0.058633
+			0.650	0.048605
+			0.700	0.038290
+			0.750	0.027668
+			0.760	0.025508
+			0.770	0.023334
+			0.780	0.021149
+			0.790	0.018953
+			0.800	0.016744
+			0.810	0.014525
+			0.820	0.012296
+			0.830	0.010046
+			0.840	0.007793
+			0.850	0.005519
+			0.860	0.003216
+			0.870	0.000959
+			0.880	-0.001373
+			0.890	-0.003729
+			0.900	-0.006070
+		</tableData>
+	</table>
+	
+	<table name="C_POWER" type="internal">
+		<tableData>
+			0.000	0.064022
+			0.050	0.065158
+			0.100	0.065265
+			0.150	0.064079
+			0.200	0.062805
+			0.250	0.062537
+			0.300	0.062220
+			0.350	0.061723
+			0.400	0.060913
+			0.450	0.059393
+			0.500	0.056056
+			0.550	0.051592
+			0.600	0.046369
+			0.650	0.040489
+			0.700	0.033858
+			0.750	0.026433
+			0.760	0.024852
+			0.770	0.023239
+			0.780	0.021595
+			0.790	0.019921
+			0.800	0.018216
+			0.810	0.016481
+			0.820	0.014716
+			0.830	0.012911
+			0.840	0.011081
+			0.850	0.009208
+			0.860	0.007285
+			0.870	0.005375
+			0.880	0.003377
+			0.890	0.001330
+			0.900	-0.000732
+		</tableData>
+	</table>
+	
+	
+</propeller>
+

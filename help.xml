@@ -1,0 +1,104 @@
+<?xml version="1.0"?>
+<!-- $Id: help.xml,v 1.8 2011-02-21 20:49:07 anders Exp $ -->
+<!--
+Zeppelin LZ 121 "Nordstern" airship for FlightGear.
+
+Copyright (C) 2010  Anders Gidenstam  (anders(at)gidenstam.org)
+Copyright (C) 2017  Franz Schmid  (Franz.Schmid(at)altmuehlnet.de)
+This file is licensed under the GPL license version 2 or later.
+-->
+<PropertyList>
+	
+	<title>Schuette-Lanz SL.11</title>
+	<!-- Specific keys -->
+	<key>
+		<name>W</name>
+		<desc>Weigh-off to neutral buoyancy.</desc>
+	</key>
+	<key>
+		<name>w</name>
+		<desc>Show current on-ground weight.</desc>
+	</key>
+	<key>
+		<name>F/f</name>
+		<desc>Open/close fore gas valves.</desc>
+	</key>
+	<key>
+		<name>G/g</name>
+		<desc>Open/close aft gas valves.</desc>
+	</key>
+	<key>
+		<name>e</name>
+		<desc>Shift trim ballast aft.</desc>
+	</key>
+	<key>
+		<name>d</name>
+		<desc>Shift trim ballast fore.</desc>
+	</key>
+	<key>
+		<name>E</name>
+		<desc>Release one quick release ballast bag fore.</desc>
+	</key>
+	<key>
+		<name>D</name>
+		<desc>Release one quick release ballast bag aft.</desc>
+	</key>
+	<key>
+		<name>Ctrl-W</name>
+		<desc>Refill quick release ballast bags.</desc>
+	</key>
+	<key>
+		<name>Y</name>
+		<desc>Release connection with landing party.</desc>
+	</key>
+	<key>
+		<name>U</name>
+		<desc>Attempt to connect to landing party.</desc>
+	</key>
+	<key>
+		<name>l</name>
+		<desc>Toggle instrument lights.</desc>
+	</key>
+	<key>
+		<name>L</name>
+		<desc>Toggle landing lights.</desc>
+	</key>
+	<key>
+		<name>b</name>
+		<desc>Open/close bomb bays.</desc>
+	</key>
+	<key>
+		<name>J</name>
+		<desc>Drop selected Bombs.</desc>
+	</key>
+	<key>
+		<name>j</name>
+		<desc>Select next Bomb.</desc>
+	</key>
+	<key>
+		<name>ctrl + click</name>
+		<desc>Place ground crew.</desc>
+	</key>
+	<!--
+	<key>
+	<name>w</name>
+	<desc>Walk view: walk forward, +shift to run.</desc>
+	</key>
+	<key>
+	<name>s</name>
+	<desc>Walk view: walk backward.</desc>
+	</key>
+	<key>
+	<name>a</name>
+	<desc>Walk view: side step left, +shift to run.</desc>
+	</key>
+	<key>
+	<name>d</name>
+	<desc>Walk view: side step right, +shift to run.</desc>
+	</key>
+	-->
+	<text>
+		________________Pilot's Notes_______________
+		http://fschmid.hp.altmuehlnet.de/flightgear.html
+	</text>
+</PropertyList>

@@ -1,0 +1,511 @@
+<?xml version="1.0"?>
+
+<!-- Maschinentelegraf -->
+<PropertyList> 
+	
+	<path>telegraf.ac</path>
+	
+	<offsets>
+		<!-- x/y/z == back/right/up -->
+		<x-m> 0.000 </x-m>
+		<y-m> 0.000 </y-m>
+		<z-m> 0.000 </z-m>
+	</offsets>
+	
+	<!-- Engine 0 -->
+	<animation>
+		<type>pick</type>
+		<object-name>ClickRevHalb0</object-name>
+		<action>
+			<button>0</button>
+			<repeatable>false</repeatable>
+			<binding>
+				<command>nasal</command>
+				<script>SL11.SetEngineState(0, -1);</script>
+			</binding>
+		</action>
+	</animation>
+	<animation>
+		<type>pick</type>
+		<object-name>ClickRevVoll0</object-name>
+		<action>
+			<button>0</button>
+			<repeatable>false</repeatable>
+			<binding>
+				<command>nasal</command>
+				<script>SL11.SetEngineState(0, -2);</script>
+			</binding>
+		</action>
+	</animation>
+	<animation>
+		<type>pick</type>
+		<object-name>ClickStop0</object-name>
+		<action>
+			<button>0</button>
+			<repeatable>false</repeatable>
+			<binding>
+				<command>nasal</command>
+				<script>SL11.SetEngineState(0, 0);</script>
+			</binding>
+		</action>
+	</animation>
+	<animation>
+		<type>pick</type>
+		<object-name>ClickLeer0</object-name>
+		<action>
+			<button>0</button>
+			<repeatable>false</repeatable>
+			<binding>
+				<command>nasal</command>
+				<script>SL11.SetEngineState(0, 1);</script>
+			</binding>
+		</action>
+	</animation>
+	<animation>
+		<type>pick</type>
+		<object-name>ClickHalb0</object-name>
+		<action>
+			<button>0</button>
+			<repeatable>false</repeatable>
+			<binding>
+				<command>nasal</command>
+				<script>SL11.SetEngineState(0, 2);</script>
+			</binding>
+		</action>
+	</animation>
+	<animation>
+		<type>pick</type>
+		<object-name>ClickVoll0</object-name>
+		<action>
+			<button>0</button>
+			<repeatable>false</repeatable>
+			<binding>
+				<command>nasal</command>
+				<script>SL11.SetEngineState(0, 3);</script>
+			</binding>
+		</action>
+	</animation>
+	<animation>
+		<type>pick</type>
+		<object-name>ClickAK0</object-name>
+		<action>
+			<button>0</button>
+			<repeatable>false</repeatable>
+			<binding>
+				<command>nasal</command>
+				<script>SL11.SetEngineState(0, 4);</script>
+			</binding>
+		</action>
+	</animation>
+	<animation>
+		<type>rotate</type>
+		<object-name>HandleCmd</object-name>
+		<property>/controls/engines/engine[0]/opstatereq</property>
+		<interpolation> 
+			<entry><ind>-2</ind><dep>30.5</dep></entry>
+			<entry><ind>-1</ind><dep>16.0</dep></entry>
+			<entry><ind>0</ind><dep>0.0</dep></entry>
+			<entry><ind>1</ind><dep>-18.0</dep></entry>
+			<entry><ind>2</ind><dep>-33.0</dep></entry>
+			<entry><ind>3</ind><dep>-49.0</dep></entry>
+			<entry><ind>4</ind><dep>-65.0</dep></entry>
+			<entry><ind>5</ind><dep>-65.0</dep></entry>
+		</interpolation>
+		<center>
+			<x-m>  0.10762 </x-m>
+			<y-m> -0.03017 </y-m>
+			<z-m>  0.03042 </z-m>
+		</center>
+		<axis>
+			<x>1.0</x>
+			<y>0.0</y>
+			<z>0.0</z>
+		</axis>
+	</animation>
+	<animation>
+		<type>rotate</type>
+		<object-name>HandleResp</object-name>
+		<property>/controls/engines/engine[0]/opstateresp</property>
+		<interpolation> 
+			<entry><ind>-2</ind><dep>30.5</dep></entry>
+			<entry><ind>-1</ind><dep>16.0</dep></entry>
+			<entry><ind>0</ind><dep>0.0</dep></entry>
+			<entry><ind>1</ind><dep>-18.0</dep></entry>
+			<entry><ind>2</ind><dep>-33.0</dep></entry>
+			<entry><ind>3</ind><dep>-49.0</dep></entry>
+			<entry><ind>4</ind><dep>-65.0</dep></entry>
+			<entry><ind>5</ind><dep>-65.0</dep></entry>
+		</interpolation>
+		<center>
+			<x-m>  0.10762 </x-m>
+			<y-m> -0.03017 </y-m>
+			<z-m>  0.03042 </z-m>
+		</center>
+		<axis>
+			<x>1.0</x>
+			<y>0.0</y>
+			<z>0.0</z>
+		</axis>
+	</animation>
+	<!-- Engine 1 -->
+	<animation>
+		<type>pick</type>
+		<object-name>ClickRevHalb1</object-name>
+		<action>
+			<button>0</button>
+			<repeatable>false</repeatable>
+			<binding>
+				<command>nasal</command>
+				<script>SL11.SetEngineState(1, -1);</script>
+			</binding>
+		</action>
+	</animation>
+	<animation>
+		<type>pick</type>
+		<object-name>ClickRevVoll1</object-name>
+		<action>
+			<button>0</button>
+			<repeatable>false</repeatable>
+			<binding>
+				<command>nasal</command>
+				<script>SL11.SetEngineState(1, -2);</script>
+			</binding>
+		</action>
+	</animation>
+	<animation>
+		<type>pick</type>
+		<object-name>ClickStop1</object-name>
+		<action>
+			<button>0</button>
+			<repeatable>false</repeatable>
+			<binding>
+				<command>nasal</command>
+				<script>SL11.SetEngineState(1, 0);</script>
+			</binding>
+		</action>
+	</animation>
+	<animation>
+		<type>pick</type>
+		<object-name>ClickLeer1</object-name>
+		<action>
+			<button>0</button>
+			<repeatable>false</repeatable>
+			<binding>
+				<command>nasal</command>
+				<script>SL11.SetEngineState(1, 1);</script>
+			</binding>
+		</action>
+	</animation>
+	<animation>
+		<type>pick</type>
+		<object-name>ClickHalb1</object-name>
+		<action>
+			<button>0</button>
+			<repeatable>false</repeatable>
+			<binding>
+				<command>nasal</command>
+				<script>SL11.SetEngineState(1, 2);</script>
+			</binding>
+		</action>
+	</animation>
+	<animation>
+		<type>pick</type>
+		<object-name>ClickVoll1</object-name>
+		<action>
+			<button>0</button>
+			<repeatable>false</repeatable>
+			<binding>
+				<command>nasal</command>
+				<script>SL11.SetEngineState(1, 3);</script>
+			</binding>
+		</action>
+	</animation>
+	<animation>
+		<type>pick</type>
+		<object-name>ClickAK1</object-name>
+		<action>
+			<button>0</button>
+			<repeatable>false</repeatable>
+			<binding>
+				<command>nasal</command>
+				<script>SL11.SetEngineState(1, 4);</script>
+			</binding>
+		</action>
+	</animation>
+	<animation>
+		<type>rotate</type>
+		<object-name>HandleCmd.001</object-name>
+		<property>/controls/engines/engine[1]/opstatereq</property>
+		<interpolation> 
+			<entry><ind>-2</ind><dep>30.5</dep></entry>
+			<entry><ind>-1</ind><dep>16.0</dep></entry>
+			<entry><ind>0</ind><dep>0.0</dep></entry>
+			<entry><ind>1</ind><dep>-18.0</dep></entry>
+			<entry><ind>2</ind><dep>-33.0</dep></entry>
+			<entry><ind>3</ind><dep>-49.0</dep></entry>
+			<entry><ind>4</ind><dep>-65.0</dep></entry>
+			<entry><ind>5</ind><dep>-65.0</dep></entry>
+		</interpolation>
+		<center>
+			<x-m>  0.10762 </x-m>
+			<y-m> -0.03017 </y-m>
+			<z-m>  0.03042 </z-m>
+		</center>
+		<axis>
+			<x>1.0</x>
+			<y>0.0</y>
+			<z>0.0</z>
+		</axis>
+	</animation>
+	<animation>
+		<type>rotate</type>
+		<object-name>HandleResp.001</object-name>
+		<property>/controls/engines/engine[1]/opstateresp</property>
+		<interpolation> 
+			<entry><ind>-2</ind><dep>30.5</dep></entry>
+			<entry><ind>-1</ind><dep>16.0</dep></entry>
+			<entry><ind>0</ind><dep>0.0</dep></entry>
+			<entry><ind>1</ind><dep>-18.0</dep></entry>
+			<entry><ind>2</ind><dep>-33.0</dep></entry>
+			<entry><ind>3</ind><dep>-49.0</dep></entry>
+			<entry><ind>4</ind><dep>-65.0</dep></entry>
+			<entry><ind>5</ind><dep>-65.0</dep></entry>
+		</interpolation>
+		<center>
+			<x-m>  0.10762 </x-m>
+			<y-m> -0.03017 </y-m>
+			<z-m>  0.03042 </z-m>
+		</center>
+		<axis>
+			<x>1.0</x>
+			<y>0.0</y>
+			<z>0.0</z>
+		</axis>
+	</animation>
+	<!-- Engine 1 -->
+	<animation>
+		<type>pick</type>
+		<object-name>ClickStop2</object-name>
+		<action>
+			<button>0</button>
+			<repeatable>false</repeatable>
+			<binding>
+				<command>nasal</command>
+				<script>SL11.SetEngineState(2, 0);</script>
+			</binding>
+		</action>
+	</animation>
+	<animation>
+		<type>pick</type>
+		<object-name>ClickLeer2</object-name>
+		<action>
+			<button>0</button>
+			<repeatable>false</repeatable>
+			<binding>
+				<command>nasal</command>
+				<script>SL11.SetEngineState(2, 1);</script>
+			</binding>
+		</action>
+	</animation>
+	<animation>
+		<type>pick</type>
+		<object-name>ClickHalb2</object-name>
+		<action>
+			<button>0</button>
+			<repeatable>false</repeatable>
+			<binding>
+				<command>nasal</command>
+				<script>SL11.SetEngineState(2, 2);</script>
+			</binding>
+		</action>
+	</animation>
+	<animation>
+		<type>pick</type>
+		<object-name>ClickVoll2</object-name>
+		<action>
+			<button>0</button>
+			<repeatable>false</repeatable>
+			<binding>
+				<command>nasal</command>
+				<script>SL11.SetEngineState(2, 3);</script>
+			</binding>
+		</action>
+	</animation>
+	<animation>
+		<type>pick</type>
+		<object-name>ClickAK2</object-name>
+		<action>
+			<button>0</button>
+			<repeatable>false</repeatable>
+			<binding>
+				<command>nasal</command>
+				<script>SL11.SetEngineState(2, 4);</script>
+			</binding>
+		</action>
+	</animation>
+	<animation>
+		<type>rotate</type>
+		<object-name>HandleCmd.002</object-name>
+		<property>/controls/engines/engine[2]/opstatereq</property>
+		<interpolation> 
+			<entry><ind>0</ind><dep>0.0</dep></entry>
+			<entry><ind>1</ind><dep>-18.0</dep></entry>
+			<entry><ind>2</ind><dep>-33.0</dep></entry>
+			<entry><ind>3</ind><dep>-49.0</dep></entry>
+			<entry><ind>4</ind><dep>-65.0</dep></entry>
+			<entry><ind>5</ind><dep>-65.0</dep></entry>
+		</interpolation>
+		<center>
+			<x-m>  0.10762 </x-m>
+			<y-m> -0.03017 </y-m>
+			<z-m>  0.03042 </z-m>
+		</center>
+		<axis>
+			<x>1.0</x>
+			<y>0.0</y>
+			<z>0.0</z>
+		</axis>
+	</animation>
+	<animation>
+		<type>rotate</type>
+		<object-name>HandleResp.002</object-name>
+		<property>/controls/engines/engine[2]/opstateresp</property>
+		<interpolation> 
+			<entry><ind>0</ind><dep>0.0</dep></entry>
+			<entry><ind>1</ind><dep>-18.0</dep></entry>
+			<entry><ind>2</ind><dep>-33.0</dep></entry>
+			<entry><ind>3</ind><dep>-49.0</dep></entry>
+			<entry><ind>4</ind><dep>-65.0</dep></entry>
+			<entry><ind>5</ind><dep>-65.0</dep></entry>
+		</interpolation>
+		<center>
+			<x-m>  0.10762 </x-m>
+			<y-m> -0.03017 </y-m>
+			<z-m>  0.03042 </z-m>
+		</center>
+		<axis>
+			<x>1.0</x>
+			<y>0.0</y>
+			<z>0.0</z>
+		</axis>
+	</animation>
+	<!-- Engine 3 -->
+	<animation>
+		<type>pick</type>
+		<object-name>ClickStop3</object-name>
+		<action>
+			<button>0</button>
+			<repeatable>false</repeatable>
+			<binding>
+				<command>nasal</command>
+				<script>SL11.SetEngineState(3, 0);</script>
+			</binding>
+		</action>
+	</animation>
+	<animation>
+		<type>pick</type>
+		<object-name>ClickLeer3</object-name>
+		<action>
+			<button>0</button>
+			<repeatable>false</repeatable>
+			<binding>
+				<command>nasal</command>
+				<script>SL11.SetEngineState(3, 1);</script>
+			</binding>
+		</action>
+	</animation>
+	<animation>
+		<type>pick</type>
+		<object-name>ClickHalb3</object-name>
+		<action>
+			<button>0</button>
+			<repeatable>false</repeatable>
+			<binding>
+				<command>nasal</command>
+				<script>SL11.SetEngineState(3, 2);</script>
+			</binding>
+		</action>
+	</animation>
+	<animation>
+		<type>pick</type>
+		<object-name>ClickVoll3</object-name>
+		<action>
+			<button>0</button>
+			<repeatable>false</repeatable>
+			<binding>
+				<command>nasal</command>
+				<script>SL11.SetEngineState(3, 3);</script>
+			</binding>
+		</action>
+	</animation>
+	<animation>
+		<type>pick</type>
+		<object-name>ClickAK3</object-name>
+		<action>
+			<button>0</button>
+			<repeatable>false</repeatable>
+			<binding>
+				<command>nasal</command>
+				<script>SL11.SetEngineState(3, 4);</script>
+			</binding>
+		</action>
+	</animation>
+	<animation>
+		<type>rotate</type>
+		<object-name>HandleCmd.003</object-name>
+		<property>/controls/engines/engine[3]/opstatereq</property>
+		<interpolation> 
+			<entry><ind>0</ind><dep>0.0</dep></entry>
+			<entry><ind>1</ind><dep>-18.0</dep></entry>
+			<entry><ind>2</ind><dep>-33.0</dep></entry>
+			<entry><ind>3</ind><dep>-49.0</dep></entry>
+			<entry><ind>4</ind><dep>-65.0</dep></entry>
+			<entry><ind>5</ind><dep>-65.0</dep></entry>
+		</interpolation>
+		<center>
+			<x-m>  0.10762 </x-m>
+			<y-m> -0.03017 </y-m>
+			<z-m>  0.03042 </z-m>
+		</center>
+		<axis>
+			<x>1.0</x>
+			<y>0.0</y>
+			<z>0.0</z>
+		</axis>
+	</animation>
+	<animation>
+		<type>rotate</type>
+		<object-name>HandleResp.003</object-name>
+		<property>/controls/engines/engine[3]/opstateresp</property>
+		<interpolation> 
+			<entry><ind>0</ind><dep>0.0</dep></entry>
+			<entry><ind>1</ind><dep>-18.0</dep></entry>
+			<entry><ind>2</ind><dep>-33.0</dep></entry>
+			<entry><ind>3</ind><dep>-49.0</dep></entry>
+			<entry><ind>4</ind><dep>-65.0</dep></entry>
+			<entry><ind>5</ind><dep>-65.0</dep></entry>
+		</interpolation>
+		<center>
+			<x-m>  0.10762 </x-m>
+			<y-m> -0.03017 </y-m>
+			<z-m>  0.03042 </z-m>
+		</center>
+		<axis>
+			<x>1.0</x>
+			<y>0.0</y>
+			<z>0.0</z>
+		</axis>
+	</animation>
+	<animation> 
+		<type>material</type>
+		<object-name>Body.003</object-name>
+		<emission> 
+			<factor-prop>controls/lighting/panel-norm</factor-prop>
+			<red>0.75</red>
+			<green>0.25</green>
+			<blue>0.25</blue>
+		</emission>
+	</animation>
+	
+	
+</PropertyList>
